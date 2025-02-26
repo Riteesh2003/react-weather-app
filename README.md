@@ -13,7 +13,6 @@ A simple weather application built using React.js and the [Tomorrow.io](https://
 ✅ Search weather by city  
 ✅ Get real-time weather updates  
 ✅ 5-day forecast & hourly updates  
-✅ Beautiful animated UI  
 ✅ Mobile & Desktop responsive
 
 ## Technologies Used
