@@ -17,24 +17,55 @@ const Layout = ({
     <>
       <style>
         {`
-          @keyframes skyAnimation {
-            0% { background: linear-gradient(to bottom, #4A90E2, #A1C4FD); }
-          }
+    @keyframes skyAnimation {
+      0% { background: linear-gradient(to bottom, #4A90E2, #A1C4FD); }
+    }
 
-          .weather-app {
-            background: linear-gradient(to bottom, #4A90E2, #A1C4FD);
-            animation: skyAnimation 10s ease-in-out infinite alternate;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            transition: background 0.5s ease-in-out;
-            padding-top: 20px;
-          }
+    .weather-app {
+      background: linear-gradient(to bottom, #4A90E2, #A1C4FD);
+      animation: skyAnimation 10s ease-in-out infinite alternate;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      transition: background 0.5s ease-in-out;
+      padding-top: 20px;
+    }
+
+    .header-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 80%;
+      max-width: 1200px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .row > div {
+      flex: 1;
+      padding: 15px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.3);
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
 
 
-         .empty-message {
+    .empty-message {
             text-align: center;
             font-size: 20px;
             font-weight: bold;
@@ -44,46 +75,19 @@ const Layout = ({
             border-radius: 10px;
           }
 
+    /* Add the updated styles inside the existing media query */
+    @media (max-width: 768px) {
+      .row {
+        flex-direction: column;
+      }
 
-
-          .header-container {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            padding: 10px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-          }
-
-          .content {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            width: 80%;
-            max-width: 1200px;
-
-          }
-
-          .row {
-            display: flex;
-            justify-content: space-between;
-            gap: 10px;
-          }
-
-          .row > div {
-            flex: 1;
-            padding: 15px;
-            border-radius: 10px;
-            background: rgba(255, 255, 255, 0.3);
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-          }
-
-          @media (max-width: 768px) {
-            .row {
-              flex-direction: column;
-            }
-          }
-        `}
+      .header-container {
+        width: 100%;
+        padding: 0 15px; /* Ensures no overflow */
+        box-sizing: border-box;
+      }
+    }
+  `}
       </style>
 
       <div className="weather-app">
