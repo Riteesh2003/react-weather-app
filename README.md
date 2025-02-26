@@ -22,6 +22,16 @@ A simple weather application built using React.js and the [Tomorrow.io](https://
 - Tomorrow.io Weather API 🌦️
 - CSS (Material-UI / Custom Styles) 🎨
 
+## Screenshots 📸
+
+### Home Page
+
+![Home Page](UI_Screenshots/Screen_1.PNG)
+
+### Weather Details
+
+![Weather Details](UI_Screenshots/Screen_2.PNG)
+
 ## Installation & Setup 🚀
 
 1. **Clone the repository**
