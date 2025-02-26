@@ -6,7 +6,7 @@ A simple weather application built using React.js and the [Tomorrow.io](https://
 
 ## Live Demo 🌍
 
-[Check Live Here](https://weather-8chzmei7f-riteeshs-projects-ad4e2342.vercel.app)
+[Check Live Here](https://weather-tgwig2ai0-riteeshs-projects-ad4e2342.vercel.app)
 
 ## 🚀 Features
 
