@@ -22,7 +22,7 @@ A simple weather application built using React.js and the [Tomorrow.io](https://
 - Tomorrow.io Weather API
 - CSS (Material-UI / Custom Styles)
 
-## Screenshots
+## UI Screenshots
 
 ### Home Page
 
