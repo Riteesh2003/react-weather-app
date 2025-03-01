@@ -10,10 +10,10 @@ A simple weather application built using React.js and the [Tomorrow.io](https://
 
 ## Features
 
-Search weather by city  
- Get real-time weather updates  
- 5-day forecast & hourly updates  
- Mobile & Desktop responsive
+- Search weather by city
+- Get real-time weather updates
+- 5-day forecast & hourly updates
+- Mobile & Desktop responsive
 
 ## Technologies Used
 
